@@ -17,10 +17,11 @@
 		-ms-user-select: none;
 		-webkit-user-select: none;
 		background: _palette(bg-alt);
-		top: 1em;
+		top: -1em;
 		left: 0;
 		line-height: _size(header);
 		padding: 0 1.5em;
+		position:fixed;
 		user-select: none;
 		width: 100%;
 		z-index: _misc(z-index-base) + 2;
